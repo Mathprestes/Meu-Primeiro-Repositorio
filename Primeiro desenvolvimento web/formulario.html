@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset='UTF-8'>
+	<title> Formulario </title>
+	<link rel='stylesheet' type='text/css' href='./estilos.css'>
+</head>
+
+<body>
+<div class='menu'>
+Aqui vai o menu com os acessos para a parte de baixo da tela.
+
+    <a href='./menu.html'> <acesso> Abertura </acesso> </a> | 
+    <a href='./formulario.html'> <acesso> Formulario </acesso> </a> |
+    <a href='./ancora.html'> <acesso> Ancora </acesso> </a> |  
+    <a href='./relatorio.html'> <acesso> Relatorio </acesso> </a> | <br>
+</div>
+
+<br> <br> <br>
+<form>
+
+<b> <u> <font color=red size='4' > Formulario </font> </u> </b> <br> <br>
+
+<table>
+<tr> <td> Nome Completo: </td> <td> <input type='text' name='c1' size='41' maxlength='100'> Nome completo... </td> </tr>
+
+<tr> <td> Data de Nacimento: </td> <td> <input type='date' name='c2'> dia/mes/ano </td> </tr>
+
+<tr> <td> Sexo: </td> <td> <input type='radio' name='c3' value='1'> Masculino |<input type='radio' name='c3' value='2'> Femenino |</td> </tr>
+
+<tr> <td> Valor limite para Compra: </td> <td> <input type='number' name='c4' size='15'> </td> </tr>
+
+<tr> <td> Metodos de Pagamento que usa: </td> <td> <input type='checkbox' name='c5' value='1'> Cartao de Credito |<input type='checkbox' name='c5' value='2'> Cartao de debito |<input type='checkbox' name='c5' value='3'> Boleto |<input type='checkbox' name='c5' value='1'> Transferencia Bancaria |<input type='checkbox' name='c5' value='4'> </td> </tr>
+
+<tr> <td> Cargo: </td> <td> <select name='c6'>
+	<option value='1'> Analista de Sistemas </option>
+	<option value='2'> Segurança de Dados </option>
+	<option value='3'> Engenheiro </option>
+	<option value='4'> Medico </option>
+	<option value='5'> Autonomo </option>
+</select> </td> </tr>
+
+<tr> <td> Resenha Profissional: </td> <td> <textarea name='c7' cols=30 rows=5> </textarea> </td> </tr> 
+
+<tr> <td> Senha de Acesso: </td> <td> <input type='password' name='c8' size=15 maxlength="15"> Senha de ate 15 caracteres </td> </tr>
+</table>
+
+<br>
+<input type = "submit" value = "Confirmar"> 
+<input type = "reset" value = "Cancelar">
+
+</form>
+</body>
+</html>
